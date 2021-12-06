@@ -127,8 +127,8 @@ call s:GuiFor('Comment', 'NONE', s:LIGHT_GREY, "italic")
 call s:GuiFor('NonText', 'NONE', s:GREY)
 "call s:GuiFor('SpecialComment', 'NONE', s:LIGHT_GREY)
 call s:GuiFor('LineNr', 'NONE', s:GREY)
-call s:GuiFor('StatusLine', '', '', 'reverse')
-call s:GuiFor('StatusLineNC', '', '', 'reverse')
+" call s:GuiFor('StatusLine', '', '', 'reverse')
+" call s:GuiFor('StatusLineNC', '', '', 'reverse')
 
 " --------------------------------------------------
 " Deletion highlights, errors, warnings, red
