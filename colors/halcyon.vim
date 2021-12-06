@@ -3,7 +3,7 @@
 " Author:         Tiger Nie <nhl0819@gmail.com>
 " Website:        https://github.com/NieTiger/halcyon-neovim
 " License:        MIT
-" ----------------------------------------------------------------------------- 
+" -----------------------------------------------------------------------------
 " Initialisation: {{{
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -53,7 +53,7 @@ let s:PURPLE = '#c3a6ff'
 let s:MAGENTA = s:PURPLE
 let s:WHITE = '#d7dce2'
 let s:LIGHT_GREY = '#8695b7'
-let s:GREY = '#2f3b54'
+let s:GREY = '#6679a4'
 let s:DARK_GREY = '#1d2433'"}}}
 
 " Default
@@ -193,7 +193,7 @@ call s:GuiFor('jsForAwait', 'NONE', s:ORANGE)
 call s:GuiFor('jsDot', 'NONE', s:ORANGE)
 
 " --------------------------------------------------
-" Typescript 
+" Typescript
 " --------------------------------------------------
 
 call s:GuiFor('typescriptRegexpString', 'NONE', s:GREEN)
@@ -341,7 +341,7 @@ if has('nvim')
 
   let g:terminal_color_6 = s:CYAN
   let g:terminal_color_14 = s:CYAN
-  
+
   let g:terminal_color_7 = s:WHITE
   let g:terminal_color_15 = s:WHITE
 
