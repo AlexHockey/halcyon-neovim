@@ -54,6 +54,7 @@ let s:MAGENTA = s:PURPLE
 let s:WHITE = '#d7dce2'
 let s:LIGHT_GREY = '#8695b7'
 let s:GREY = '#6679a4'
+let s:MID_GREY = '#465984'
 let s:DARK_GREY = '#1d2433'"}}}
 
 " Default
@@ -96,6 +97,7 @@ call s:GuiFor('PreCondit', 'NONE', s:ORANGE)
 " --------------------------------------------------
 call s:GuiFor('String', 'NONE', s:GREEN)
 call s:GuiFor('CursorLineNr', 'NONE', s:GREEN)
+call s:GuiFor('Cursor', s:MID_GREY, 'NONE')
 call s:GuiFor('Debug', 'NONE', s:GREEN)
 call s:GuiFor('Define', 'NONE', s:GREEN)
 call s:GuiFor('Delimiter', 'NONE', s:GREEN)
