@@ -55,7 +55,9 @@ let s:WHITE = '#d7dce2'
 let s:LIGHT_GREY = '#8695b7'
 let s:GREY = '#6679a4'
 let s:MID_GREY = '#465984'
-let s:DARK_GREY = '#1d2433'"}}}
+let s:DARK_GREY = '#1d2433'
+let s:PURPLE_GREY = '#404050'
+"}}}
 
 " Default
 call s:GuiFor('Normal', 'NONE', s:FOREGROUND)
@@ -153,7 +155,7 @@ call s:GuiFor('CursorLine ', 'NONE', s:CYAN, 'NONE')
 " --------------------------------------------------
 " Complex
 " --------------------------------------------------
-call s:GuiFor('Visual', s:GREY, 'NONE')
+call s:GuiFor('Visual', s:PURPLE_GREY, 'NONE')
 call s:GuiFor('VertSplit', s:GREY, s:BACKGROUND)
 
 call s:GuiFor('Pmenu', s:BACKGROUND, s:FOREGROUND)
